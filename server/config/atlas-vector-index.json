@@ -1,0 +1,31 @@
+{
+  "name": "vector_index",
+  "type": "vectorSearch",
+  "collectionName": "knowledge_chunks",
+  "definition": {
+    "fields": [
+      {
+        "type": "vector",
+        "path": "embedding",
+        "numDimensions": 768,
+        "similarity": "cosine"
+      },
+      {
+        "type": "filter",
+        "path": "metadata.sourceType"
+      },
+      {
+        "type": "filter",
+        "path": "metadata.propertyId"
+      },
+      {
+        "type": "filter",
+        "path": "metadata.roomId"
+      },
+      {
+        "type": "filter",
+        "path": "metadata.category"
+      }
+    ]
+  }
+}

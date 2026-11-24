@@ -1,0 +1,202 @@
+{
+  "property": {
+    "name": "GreenNest Executive Living — Indiranagar",
+    "slug": "greennest-indiranagar",
+    "tagline": "Modern co-living steps from 100 Feet Road & Indiranagar Metro",
+    "description": "Managed paying guest residence offering furnished single, double, and triple-sharing rooms, homestyle dining, 300 Mbps fiber Wi-Fi, and digital sub-meter billing.",
+    "address": {
+      "line1": "No. 18, 12th Main Road, HAL 2nd Stage",
+      "area": "Indiranagar",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560008",
+      "landmarks": [
+        "Indiranagar Metro Station (450m)",
+        "100 Feet Road (200m)",
+        "CMH Road Bus Stop (350m)"
+      ]
+    },
+    "googleMapsUrl": "https://maps.google.com/?q=Indiranagar+12th+Main+Bengaluru",
+    "contactPhone": "+91 98450 00000",
+    "contactEmail": "hello@yourpgdomain.in",
+    "genderPolicy": "co-ed",
+    "electricityRatePerUnit": 9,
+    "amenities": [
+      "300 Mbps Fiber Wi-Fi",
+      "24/7 Biometric Entry & CCTV",
+      "3 Fresh Homestyle Meals Daily",
+      "DG Power Backup",
+      "Washing Machines & Ironing",
+      "Housekeeping 3x Weekly"
+    ],
+    "houseRulesSummary": {
+      "curfewTime": "11:30 PM (Digital late-entry pass via portal)",
+      "visitorHours": "9:00 AM – 8:00 PM in ground-floor lounge",
+      "overnightGuestPolicy": "Prior written admin approval required 48 hours ahead (single rooms only)",
+      "quietHours": "11:00 PM – 6:30 AM",
+      "smokingAlcoholPolicy": "Strictly smoke-free and alcohol-free premises",
+      "securityDepositRefundDays": 7,
+      "gstRatePercent": 0
+    },
+    "mealTimings": {
+      "breakfast": "7:30 AM – 9:45 AM",
+      "lunch": "12:30 PM – 2:30 PM",
+      "dinner": "7:45 PM – 10:00 PM"
+    }
+  },
+  "rooms": [
+    {
+      "roomNumber": "101",
+      "floor": 1,
+      "sharingType": "single",
+      "isAC": true,
+      "genderPreference": "any",
+      "monthlyRent": 21000,
+      "securityDeposit": 25000,
+      "lockInMonths": 1,
+      "noticePeriodDays": 30,
+      "electricityRatePerUnit": 9,
+      "estimatedMonthlyElectricity": 1200,
+      "amenities": ["Split AC", "Work Desk", "Attached Balcony", "Wardrobe"],
+      "totalBeds": 1,
+      "description": "Private single studio with ergonomic work setup and natural light.",
+      "imageUrl": "/src/assets/images/room_single_studio_1795435463380.jpg"
+    },
+    {
+      "roomNumber": "102",
+      "floor": 1,
+      "sharingType": "double",
+      "isAC": true,
+      "genderPreference": "female",
+      "monthlyRent": 14000,
+      "securityDeposit": 20000,
+      "lockInMonths": 2,
+      "noticePeriodDays": 30,
+      "electricityRatePerUnit": 9,
+      "estimatedMonthlyElectricity": 900,
+      "amenities": ["Split AC", "En-suite Bathroom", "2 Study Desks", "Geyser"],
+      "totalBeds": 2,
+      "description": "Twin-sharing AC suite on the female floor with dedicated wardrobes.",
+      "imageUrl": "/src/assets/images/room_double_suite_1795435461509.jpg"
+    },
+    {
+      "roomNumber": "201",
+      "floor": 2,
+      "sharingType": "triple",
+      "isAC": false,
+      "genderPreference": "male",
+      "monthlyRent": 9500,
+      "securityDeposit": 12000,
+      "lockInMonths": 2,
+      "noticePeriodDays": 30,
+      "electricityRatePerUnit": 9,
+      "estimatedMonthlyElectricity": 500,
+      "amenities": ["Ceiling Fans", "3 Study Corners", "Attached Bath", "Wi-Fi Mesh"],
+      "totalBeds": 3,
+      "description": "Ventilated triple-sharing non-AC room for students and early-career professionals.",
+      "imageUrl": "/src/assets/images/room_triple_loft_1795435461316.jpg"
+    }
+  ],
+  "weeklyMenu": [
+    {
+      "day": "Monday",
+      "breakfast": [
+        { "name": "Idli, Vada & Coconut Chutney", "dietary": "veg" },
+        { "name": "Poha with Peanuts (No Onion/Garlic)", "dietary": "jain" }
+      ],
+      "lunch": [
+        { "name": "Phulka, Jeera Rice, Dal Tadka & Mix Veg", "dietary": "veg" },
+        { "name": "Jain Moong Dal & Rice", "dietary": "jain" }
+      ],
+      "dinner": [
+        { "name": "Chapati, Paneer Butter Masala & Rice", "dietary": "veg" },
+        { "name": "Homestyle Chicken Curry & Rice", "dietary": "non-veg" }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "breakfast": [
+        { "name": "Aloo Paratha & Curd", "dietary": "veg" },
+        { "name": "Boiled Eggs & Brown Toast", "dietary": "non-veg" }
+      ],
+      "lunch": [
+        { "name": "Rajma Chawal & Cucumber Raita", "dietary": "veg" }
+      ],
+      "dinner": [
+        { "name": "Roti, Palak Paneer & Dal Fry", "dietary": "veg" }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "breakfast": [
+        { "name": "Rava Upma & Filter Coffee", "dietary": "veg" }
+      ],
+      "lunch": [
+        { "name": "Chapati, Chole Masala & Pulao", "dietary": "veg" }
+      ],
+      "dinner": [
+        { "name": "Veg Pulao & Dal Makhani", "dietary": "veg" },
+        { "name": "Chicken Dum Biryani & Raita", "dietary": "non-veg" }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "breakfast": [
+        { "name": "Masala Dosa & Sambar", "dietary": "veg" }
+      ],
+      "lunch": [
+        { "name": "Kadhi Pakora, Steamed Rice & Bhindi Fry", "dietary": "veg" }
+      ],
+      "dinner": [
+        { "name": "Chapati, Malai Kofta & Masoor Dal", "dietary": "veg" }
+      ]
+    },
+    {
+      "day": "Friday",
+      "breakfast": [
+        { "name": "Puri Bhaji & Tea", "dietary": "veg" }
+      ],
+      "lunch": [
+        { "name": "Sambar Rice, Curd Rice & Poriyal", "dietary": "veg" }
+      ],
+      "dinner": [
+        { "name": "Tandoori Roti & Matar Paneer", "dietary": "veg" },
+        { "name": "Butter Chicken & Garlic Naan", "dietary": "non-veg" }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "breakfast": [
+        { "name": "Chole Bhature & Lassi", "dietary": "veg" }
+      ],
+      "lunch": [
+        { "name": "Veg Fried Rice & Manchurian", "dietary": "veg" }
+      ],
+      "dinner": [
+        { "name": "Phulka, Dal Tadka & Gulab Jamun", "dietary": "veg" }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "breakfast": [
+        { "name": "Ghee Pongal & Medu Vada", "dietary": "veg" }
+      ],
+      "lunch": [
+        { "name": "Sunday Special Veg Biryani & Raita", "dietary": "veg" },
+        { "name": "Sunday Special Chicken Biryani & Raita", "dietary": "non-veg" }
+      ],
+      "dinner": [
+        { "name": "Light Moong Khichdi, Tomato Soup & Fruit Custard", "dietary": "veg" }
+      ]
+    }
+  ],
+  "knowledgeDocuments": [
+    {
+      "sourceType": "neighborhood_guide",
+      "sourceSection": "Commute & Local Essentials",
+      "title": "Transit, Tech Parks & Neighborhood Guide",
+      "category": "neighborhood",
+      "content": "Located 450 meters from Indiranagar Metro Station (Purple Line) and 200 meters from 100 Feet Road. Direct metro access to MG Road (10 mins), Whitefield/ITPL (28 mins), and Majestic. Pharmacies, gyms, supermarkets, and cafes are within a 5-minute walk."
+    }
+  ]
+}

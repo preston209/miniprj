@@ -1,0 +1,6 @@
+{
+  "name": "HavenStay PG — Accommodation & AI Concierge",
+  "description": "Full-stack Paying Guest (PG) accommodation management, booking, resident portal, and MongoDB Atlas Vector Search RAG concierge platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
